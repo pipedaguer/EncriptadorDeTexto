@@ -1,0 +1,75 @@
+.footer {
+  background-image: radial-gradient(circle 767px at 10.2% 22.1%, rgba(11, 218, 81, 1) 0%, rgba(0, 191, 255, 1) 90%);
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: tomato;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logotexto {
+  font-family: 'Tourney', cursive;
+  font-size: 30px;
+  font-weight:lighter, bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.milogo2 {
+  max-height: 90px;
+  height: 50%;
+  min-height: 50px;
+  margin: 10px;
+}
+
+.textico {
+  text-align: left;
+  display: flex;
+  margin: 10px;
+}
+
+.redesSociales {
+  min-width: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 20px;
+}
+
+.textico2 {
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.redesSociales a {
+  text-decoration: none;
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 80%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.redesSociales a:hover {
+  transform: scale(1.25);
+}
+
+@media screen and (max-width: 440px) {
+
+  .logotexto {
+    display: none;
+    display: grid;
+  }
+}

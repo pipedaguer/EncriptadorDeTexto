@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/LogoIcon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Foldit:wght@600&family=Tektur:wght@400;700&family=Tourney:wght@300;500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Space+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor__header">
+
+            <div class="header">
+                <img class="milogo" src="./img/LogoEscritorio.png">
+                <a href="#" target="_blank">
+
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="contenedor">
+
+            <section class="izquierda" id="izquierda">
+
+                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese un texto aquí"
+                    autofocus></textarea>
+
+                <div class="contenedor__botones">
+
+                    <span class="advertencia">
+                        <img src="./img/exclamación.png" alt="⚠️" />
+                        Solo letras *minúsculas* y sin *acentos*
+                    </span>
+
+                    <div class="botones">
+                        <button id="botonEncriptar" class="boton__encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton__desencriptar">Desencriptar</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="derecha" id="derecha">
+
+                <img id="muneco" class="muneco" src="./img/fav2.gif"
+                    alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+
+                <p id="textoInfo" class="advertencia">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+                <button class="boton__copiar bn__ocultar" id="boton__copiar">Copiar</button>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer class="footer ">
+
+        <div class="logotexto">
+
+            <p class="textico">Creado por:</p>
+            <img class="milogo2" src="./img/LogoEscritorio.png">
+
+            <div class="redesSociales">
+                <p class="textico2">Sigueme en:</p>
+                <a href="https://github.com/pipedaguer" class="fa fa-github" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/andresdaguer/" class="fa fa-linkedin" target="_blank"></a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
